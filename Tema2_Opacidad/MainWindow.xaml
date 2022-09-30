@@ -1,0 +1,14 @@
+﻿<Window x:Class="Tema2_Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_Opacidad"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="23,40,539,41" Source="/assetes/episodioIV.jpg" IsMouseDirectlyOverChanged="PasaRaton" Opacity="0.25"/>
+        <Image Margin="281,41,281,40" Source="/assetes/episodioV.jpg" IsMouseDirectlyOverChanged="PasaRaton" Opacity="0.25"/>
+        <Image Margin="539,40,23,40" Source="/assetes/episodioVI.jpg" IsMouseDirectlyOverChanged="PasaRaton" Opacity="0.25"/>
+    </Grid>
+</Window>
